@@ -36,7 +36,7 @@ function createTableAndFields() {
 
     // ================== 创建字段结构 ==================
     const fieldDefinitions = [
-        // 多选字段（带预定义选项）
+        // 单选字段（带预定义选项）
         {
             name: '工单类型',
             type: 'SingleSelect',
